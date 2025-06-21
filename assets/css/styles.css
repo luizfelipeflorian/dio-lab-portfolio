@@ -2,36 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap');
 
 :root, :root[data-theme='dark'] {
-  --primary-color: #F0F0F0;
+  --primary-color: #0B610F;
 
   --primary-bg-color: #111217;
-  --secondary-bg-color: #28292E;
-  --primary-border-color: #28292E;
-	--secondary-border-color: #56575A;
+  --secondary-bg-color: #0F3611;
+  --primary-border-color: #0F3611;
+	--secondary-border-color: #0B610F;
 
-  --title-color: #F0F0F0;
+  --title-color: #0B610F;
   --text-color: #9A9A9C;
   --link-color: #9A9A9C;
-  --icon-color: #C7C8C9;
+  --icon-color: #89E08D;
 }
 
 :root[data-theme='light'] {
-  --primary-color: #0B0B0F;
+  --primary-color: #103310;
 
 	--primary-bg-color: #E9E9E9;
-	--secondary-bg-color: #C7C8C9;
-	--primary-border-color: #C7C8C9;
+	--secondary-bg-color: #89E08D;
+	--primary-border-color: #89E08D;
 	--secondary-border-color: #9A9A9C;
 
-	--title-color: #0B0B0F;
-	--text-color: #28292E;
-	--link-color: #28292E;
-	--icon-color: #56575A;
+	--title-color: #103310;
+	--text-color: #0F3611;
+	--link-color: #0F3611;
+	--icon-color: #0B610F;
 }
 
-html[data-theme='light'] .brand__logo {
-  filter: invert(1);
-}
+/* html[data-theme='light'] .brand__logo {
+   filter: invert(0.5);
+} */
 
 html[data-theme='light'] .technologies__logo {
   filter: invert(80%);
