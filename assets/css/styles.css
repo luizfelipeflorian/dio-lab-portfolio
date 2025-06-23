@@ -16,16 +16,16 @@
 }
 
 :root[data-theme='light'] {
-  --primary-color: #3D6391;
+  --primary-color: #3C4F66;
 
 	--primary-bg-color: #E9E9E9;
 	--secondary-bg-color: #1573E6;
 	--primary-border-color: #1573E6;
 	--secondary-border-color: #2D343C;
 
-	--title-color: #3D6391;
-	--text-color: #3C4F66;
-	--link-color: #3C4F66;
+	--title-color: #3C4F66;
+	--text-color: #2D333B;
+	--link-color: #2D333B;
 	--icon-color: #306FBB;
 }
 
@@ -280,7 +280,6 @@ main {
   gap: 1.25rem;
   padding: 6.25rem 1rem 2rem;
   background: var(--secondary-bg-color);
-  margin-top: -5.5rem;
 }
 
 .technologies h2 {
@@ -576,7 +575,7 @@ footer p {
 
   .technologies {
     padding: 6.25rem 6rem 2rem 6rem;
-    margin-top: -6rem;
+    margin-top: 6rem;
   }
 
   footer {
